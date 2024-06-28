@@ -50,7 +50,7 @@ const PlaidLink = ({ user, variant }: PlaidLinkProps) => {
       ) : variant === 'ghost' ? (
         <Button onClick={() => open()} variant='ghost' className='plaidlink-ghost'>
           <Image
-            src='/icons/coneect-bank.svg'
+            src='/icons/connect-bank.svg'
             alt='coneect bank'
             width={24}
             height={24}
@@ -60,7 +60,7 @@ const PlaidLink = ({ user, variant }: PlaidLinkProps) => {
       ) : (
         <Button onClick={() => open()} className='plaidlink-default'>
           <Image
-            src='/icons/coneect-bank.svg'
+            src='/icons/connect-bank.svg'
             alt='coneect bank'
             width={24}
             height={24}
