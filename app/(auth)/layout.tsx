@@ -9,12 +9,12 @@ export default function RootLayout({
     <main className='flex min-h-screen w-full justify-between font-inter'>
       {children}
       <div className='auth-asset'>
-        <div>
+        <div className='translate-x-40 scale-125 rounded-sm border-4 border-black-2'>
           <Image
-            src='/icons/auth-image.svg'
+            src='/icons/auth-image.png'
             alt='auth image'
-            width={500}
-            height={500}
+            width={800}
+            height={800}
           />
         </div>
       </div>
